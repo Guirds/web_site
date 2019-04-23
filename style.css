@@ -8,27 +8,30 @@
 html {
   width: 100%;
   height: 100%;
+
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+
   flex: 1;
 }
 body {
-  background-color: #f2f2f2;
   align-items: center;
   justify-content: center;
-  margin-left: 15.62%;
-  margin-right: 15.62%;
-  top: 0%;
-  bottom: 22.12%;
-  float: 1px;
+
+  margin-left: 15%;
+  margin-right: 15%;
+  flex: 1px;
+
+  background-color: #f2f2f2;
 }
 
 a {
   font-weight: 800;
   text-decoration-line: none;
-  color: #007fff;
   line-height: 16px;
   letter-spacing: 3px;
+
+  color: #007fff;
 }
 
 img {
@@ -43,11 +46,13 @@ img {
 #main-header {
   display: flex;
   align-items: center;
-  font-weight: bold;
+  justify-content: space-between;
+
   height: 100%;
   margin-top: 15%;
   bottom: 95.96%;
-  justify-content: space-between;
+
+  font-weight: bold;
   font-size: 12px;
 }
 
@@ -82,7 +87,7 @@ img {
 }
 #rede-social p {
   margin-top: 10%;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 48px;
   line-height: 60px;
@@ -93,8 +98,6 @@ img {
 #main-body {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  height: auto;
 }
 /*Primeira coluna*/
 .coluna1 {
@@ -119,69 +122,130 @@ img {
   }
 }
 
-/*Primeira coluna Foto1*/
+/* Foto1*/
 .coluna1 .post1 div {
+  width: 100%;
+  height: 400px;
+  background: url("./assets/Photo.png");
+  background-size: 100% 100%;
 }
-.coluna1 .post1 div span {
-  background-color: #ffe300;
+
+/*Estilizando o conteudo interno*/
+.coluna1 .post1 div {
   display: flex;
-  width: 100%;
-  height: auto;
-  border-radius: 13.5px;
-  font-weight: bold;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
 }
+/*Estilizando o conteudo interno*/
+.coluna1 .post1 div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 65%;
+  margin-right: 50%;
+  height: 33px; /*Arrumar %*/
+  width: 103px;
+  border-radius: 40px;
+
+  font-weight: bold;
+
+  color: #000000;
+  background-color: #ffe300;
+}
+/*Estilizando o conteudo interno*/
 .coluna1 .post1 div p {
-  color: #ffffff;
-  font-style: normal;
+  height: 93px; /*Arrumar %*/
+  width: 243px;
+  margin-right: 10%;
+  margin-top: 3%;
+
   font-weight: bold;
-  font-size: 28px;
-  height: auto;
-  width: 100%;
+  font-size: 25px;
+  line-height: 40px;
+
+  color: #ffffff;
 }
 
-/*Primeira coluna */
+/*Foto2 */
 .coluna1 .post2 {
+  width: 100%;
+  height: 500px;
+  background: url("./assets/Photo (1).png");
+  background-size: 100% 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-/*Primeira coluna*/
+/*Estilizando conteudo interno*/
 .coluna1 .post2 p {
-  width: 100%;
-  height: auto;
-  color: #ffffff;
-  font-style: normal;
+  display: flex;
+
+  height: 15%;
+  width: 60%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #ffffff;
 }
 
 /*Segunda Coluna*/
 /*Foto3*/
-.coluna2 .post3 p {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  height: auto;
-  max-width: 100%px;
+.coluna2 .post3 {
+  width: 100%;
+  height: 500px;
+  background: url("./assets/Photo (2).png");
+  background-size: 100% 100%;
+
+  display: flex;
+  align-items: flex-end;
 }
-/*Segunda coluna Foto4*/
+/*Estilizando conteudo interno*/
+.coluna2 .post3 p {
+  width: 55%;
+  height: 15%;
+  margin-left: 10%;
+  margin-bottom: 17%;
+
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+
+  color: #ffffff;
+}
+
+/*Foto4*/
 .coluna2 .post4 div {
 }
 .coluna2 .post4 p {
-  color: #ffffff;
+  max-width: 100%;
+  height: auto;
+
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  height: auto;
-  max-width: 100%;
+
+  color: #ffffff;
 }
 
 .coluna2 .post4 div span {
-  background-color: #ffe300;
   display: flex;
+
   max-width: 100%;
   height: auto;
+
   border-radius: 13.5px;
   font-weight: bold;
-}
 
+  background-color: #ffe300;
+}
 /*FOOTER*/
