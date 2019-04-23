@@ -1,152 +1,187 @@
+/*Setando config padrão*/
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
-body{
-    font-family: 'Nunito',Arial, sans-serif;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    background-color:#F2F2F2;
+html {
+  width: 100%;
+  height: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  flex: 1;
+}
+body {
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15.62%;
+  margin-right: 15.62%;
+  top: 0%;
+  bottom: 22.12%;
+  float: 1px;
 }
 
-header#main-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 100px 250px;
+a {
+  font-weight: 800;
+  text-decoration-line: none;
+  color: #007fff;
+  line-height: 16px;
+  letter-spacing: 3px;
 }
 
-header#main-header nav{
-    display: flex;
-    font-weight: bold;
+img {
+  max-width: 100%;
+  height: auto;
 }
-header#main-header nav a{
-    margin-right: 70px;
-    font-size: 12px;
-    text-decoration-line: none;
+@-ms-viewport {
+  width: device-width;
 }
-header#main-header img{
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;
+
+/*HEADER*/
+#main-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 15%;
+  bottom: 95.96%;
+  justify-content: space-between;
+  font-size: 12px;
 }
-body div#rede-social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#main-header img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+#main-header .work {
+  margin-right: 70px;
+}
+#main-header .contacts {
+  margin-left: 70px;
+}
+@media only screen and (max-width: 715px) {
+  header #main-header .contacts {
+    margin-right: 10px;
+  }
+  header #main-header .work {
+    margin-right: 10px;
+  }
+}
+
+#rede-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rede-social img {
+  margin: 30px;
+}
+#rede-social p {
+  margin-top: 10%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+/*BODY*/
+
+#main-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+/*Primeira coluna*/
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 715px) {
+  body #main-body {
     flex-direction: column;
-}
-body div#rede-social img{
-    margin-right: 30px;
-}
-body  div#rede-social p{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 60px;
-    margin: 0px 50px;
-}
-body a{
-    color:#007FFF;
-}
-body div#post{
-    display: flex;
-    margin: 100px;
-}
-body div#post .coluna1{
-    margin-left: 75px;  
-}
-body div#post .coluna1 .post1 img{
-    margin-right: 60px;
-    margin-bottom: 60px;
-}
-body div#post .coluna1 .post1 div{
-    margin-top: 372px;
-    margin-left: 60px;
-    position: absolute;
-}
-body div#post .coluna1 .post1 div span{
-    background-color: #FFE300;
-    display: flex;
-    width: 100px;
-    height: 28px;
-    border-radius: 13.5px;
-    margin-bottom: 23px;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-body div#post .coluna1 .post1 div p{
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    height: 72px;
-    width: 275px;
-    margin-bottom: 60px;
-}
-body div#post .coluna1 .post2 p{ 
-    position: absolute;
-}
-body div#post .coluna1 .post2 p{ 
-    width: 317px;
-    height: 72px;
-    margin-top: 604px;
-    margin-left: 60px;
-    display: flex;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-}
-body div#post .coluna2 .post3 img{ 
-    display:  flex;
-    height: 667px;  
-    margin-bottom: 20px;
-}
-body div#post .coluna2 .post3 p{ 
-    position: absolute;
-    color: #FFFFFF;
-    margin-top: 450px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    height: 108px;
-    width: 317px;
-    margin-left: 55px;
-    margin-bottom: 60px;
-}
-body div#post .coluna2 .post4 img{
-    display: flex;
-    margin-top: 20px;
-    height: 575px;
-    width: 525px;
-    margin-top: 60px;
-}
-body div#post .coluna2 .post4 div{
-    position: absolute;
-    margin-left: 55px;
-    margin-bottom: 60px;
-    margin-top: 430px;
-}
-body div#post .coluna2 .post4 p{
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    height: 108px;
-    width: 317px;
+  }
+  body #main-body .coluna1 .post1 {
+    margin-bottom: 30px;
+  }
+  body #main-body .coluna1 .post2 {
+    margin-bottom: 30px;
+  }
+  body #main-body .coluna2 .post3 {
+    margin-bottom: 30px;
+  }
+  body #main-body .coluna2 .post4 {
+    margin-bottom: 30px;
+  }
 }
 
-body div#post .coluna2 .post4 div span{
-    background-color: #FFE300;
-    display: flex;
-    width: 100px;
-    height: 28px;
-    border-radius: 13.5px;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 23px;
+/*Primeira coluna Foto1*/
+.coluna1 .post1 div {
 }
+.coluna1 .post1 div span {
+  background-color: #ffe300;
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 13.5px;
+  font-weight: bold;
+}
+.coluna1 .post1 div p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  height: auto;
+  width: 100%;
+}
+
+/*Primeira coluna */
+.coluna1 .post2 {
+}
+
+/*Primeira coluna*/
+.coluna1 .post2 p {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/*Segunda Coluna*/
+/*Foto3*/
+.coluna2 .post3 p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  height: auto;
+  max-width: 100%px;
+}
+/*Segunda coluna Foto4*/
+.coluna2 .post4 div {
+}
+.coluna2 .post4 p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  height: auto;
+  max-width: 100%;
+}
+
+.coluna2 .post4 div span {
+  background-color: #ffe300;
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  border-radius: 13.5px;
+  font-weight: bold;
+}
+
+/*FOOTER*/
