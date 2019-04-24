@@ -42,179 +42,6 @@ img {
   width: device-width;
 }
 
-@media only screen and (max-width: 760px) {
-  /*HEADER*/
-  header #main-header .contacts {
-    margin-right: 10px;
-  }
-  header #main-header img {
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;
-  }
-  header #main-header .work {
-    margin-right: 70px;
-  }
-  header #main-header .contacts {
-    margin-left: 70px;
-  }
-  header #main-header .work {
-    margin-right: 10px;
-  }
-
-  body #main-body {
-    flex-direction: column;
-  }
-  body #rede-social img {
-    margin: 30px;
-  }
-  body #rede-social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  body #rede-social p {
-    margin-top: 10%;
-
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 60px;
-  }
-  /*BODY*/
-
-  body #main-body .coluna1 .post1 {
-    margin-bottom: 30px;
-  }
-
-  /* Foto1*/
-  .coluna1 .post1 div {
-    height: 400px;
-    background: url("./assets/Photo.png");
-    background-size: 100% 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-
-  /*Estilizando o conteudo interno*/
-  .coluna1 .post1 div span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-left: 10%;
-    padding: 2%;
-    width: 32%;
-    border-radius: 40px;
-
-    font-weight: bold;
-
-    background-color: #ffe300;
-  }
-  body #main-body .coluna1 .post2 {
-    margin-bottom: 30px;
-  }
-  /*Foto2 */
-  .coluna1 .post2 {
-    height: 500px;
-    background: url("./assets/Photo (1).png");
-    background-size: 100% 100%;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-
-  /*Estilizando conteudo interno*/
-  .coluna1 .post2 p {
-    display: flex;
-
-    height: 20%;
-    width: 60%;
-    margin-right: 20%;
-    margin-bottom: 5%;
-
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 26px;
-
-    color: #ffffff;
-  }
-
-  body #main-body .coluna2 .post3 {
-    margin-bottom: 30px;
-  }
-  /*Segunda Coluna*/
-  /*Foto3*/
-  .coluna2 .post3 {
-    height: 500px;
-    background: url("./assets/Photo (2).png");
-    background-size: 100% 100%;
-
-    display: flex;
-    align-items: flex-end;
-  }
-  /*Estilizando conteudo interno*/
-  .coluna2 .post3 p {
-    width: 55%;
-    height: 20%;
-    margin-left: 10%;
-    margin-bottom: 17%;
-
-    font-size: 25px;
-    line-height: 28px;
-    font-weight: bold;
-
-    color: #ffffff;
-  }
-  body #main-body .coluna2 .post4 {
-    margin-bottom: 30px;
-  }
-  /*Foto4*/
-  .coluna2 .post4 {
-    height: 500px;
-    background: url("./assets/Photo (3).png");
-    background-size: 100% 100%;
-
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .coluna2 .post4 div span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 2%;
-    width: 32%;
-    border-radius: 40px;
-    margin-left: 10%;
-    margin-bottom: 5%;
-
-    font-weight: bold;
-
-    background-color: #ffe300;
-  }
-
-  .coluna2 .post4 p {
-    display: flex;
-
-    width: 75%;
-    height: 20%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-
-    font-weight: bold;
-    line-height: 36px;
-    font-size: 25px;
-
-    color: #ffffff;
-  }
-}
-
 /*HEADER*/
 #main-header {
   display: flex;
@@ -405,3 +232,183 @@ img {
 }
 
 /*FOOTER*/
+
+/*Responsivo*/
+@media only screen and (max-width: 760px) {
+  /*HEADER*/
+  header #main-header img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+  }
+  header #main-header img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+  }
+  header #main-header .contacts {
+    margin-left: 70px;
+  }
+  header #main-header .contacts {
+    margin-right: 10px;
+  }
+  header #main-header .work {
+    margin-right: 70px;
+  }
+  header #main-header .work {
+    margin-right: 10px;
+  }
+
+  /*BODY*/
+
+  body #main-body {
+    flex-direction: column;
+  }
+  body #rede-social img {
+    margin: 30px;
+  }
+  body #rede-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body #rede-social p {
+    margin-top: 10%;
+
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  body #main-body .coluna1 .post1 {
+    margin-bottom: 30px;
+  }
+
+  /* Foto1*/
+  .coluna1 .post1 div {
+    height: 400px;
+    background: url("./assets/Photo.png");
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  /*Estilizando o conteudo interno*/
+  .coluna1 .post1 div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10%;
+    padding: 2%;
+    width: 32%;
+    border-radius: 40px;
+
+    font-weight: bold;
+
+    background-color: #ffe300;
+  }
+  #main-body .coluna1 .post2 {
+    margin-bottom: 30px;
+  }
+  /*Foto2 */
+  .coluna1 .post2 {
+    height: 500px;
+    background: url("./assets/Photo (1).png");
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  /*Estilizando conteudo interno*/
+  .coluna1 .post2 p {
+    display: flex;
+
+    height: 20%;
+    width: 60%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+
+  #main-body .coluna2 .post3 {
+    margin-bottom: 30px;
+  }
+  /*Segunda Coluna*/
+  /*Foto3*/
+  .coluna2 .post3 {
+    height: 500px;
+    background: url("./assets/Photo (2).png");
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: flex-end;
+  }
+  /*Estilizando conteudo interno*/
+  .coluna2 .post3 p {
+    width: 55%;
+    height: 20%;
+    margin-left: 10%;
+    margin-bottom: 17%;
+
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: bold;
+
+    color: #ffffff;
+  }
+  #main-body .coluna2 .post4 {
+    margin-bottom: 30px;
+  }
+  /*Foto4*/
+  .coluna2 .post4 {
+    height: 500px;
+    background: url("./assets/Photo (3).png");
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .coluna2 .post4 div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2%;
+    width: 32%;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+    font-weight: bold;
+
+    background-color: #ffe300;
+  }
+
+  .coluna2 .post4 p {
+    display: flex;
+
+    width: 75%;
+    height: 20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+
+    font-weight: bold;
+    line-height: 36px;
+    font-size: 25px;
+
+    color: #ffffff;
+  }
+}
