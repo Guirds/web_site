@@ -50,7 +50,6 @@ img {
 
   height: 100%;
   margin-top: 15%;
-  bottom: 95.96%;
 
   font-weight: bold;
   font-size: 12px;
@@ -99,7 +98,7 @@ img {
 
 /* Foto1*/
 .coluna1 .post1 div {
-  height: 400px;
+  height: 500px;
   background: url("./assets/Photo.png");
   background-size: 100% 100%;
 
@@ -140,7 +139,7 @@ img {
 
 /*Foto2 */
 .coluna1 .post2 {
-  height: 500px;
+  height: 600px;
   background: url("./assets/Photo (1).png");
   background-size: 100% 100%;
 
@@ -192,7 +191,7 @@ img {
 
 /*Foto4*/
 .coluna2 .post4 {
-  height: 500px;
+  height: 600px;
   background: url("./assets/Photo (3).png");
   background-size: 100% 100%;
 
@@ -241,22 +240,12 @@ img {
     width: 52px;
     border-radius: 50%;
   }
-  header #main-header img {
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;
-  }
+
   header #main-header .contacts {
     margin-left: 70px;
   }
-  header #main-header .contacts {
-    margin-right: 10px;
-  }
   header #main-header .work {
     margin-right: 70px;
-  }
-  header #main-header .work {
-    margin-right: 10px;
   }
 
   /*BODY*/
