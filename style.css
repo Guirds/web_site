@@ -1,3 +1,9 @@
+/*          MOBILE FIRST
+1- adicionar a barra de menu no responsivo.
+2- adicionar os novos campos informativos (final do body).
+3- Ajustar as alterções para desktop.
+*/
+
 /*Setando config padrão*/
 * {
   margin: 0;
@@ -229,8 +235,6 @@ img {
 
   color: #ffffff;
 }
-
-/*FOOTER*/
 
 /*Responsivo*/
 @media only screen and (max-width: 760px) {
